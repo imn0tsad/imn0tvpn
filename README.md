@@ -8,7 +8,7 @@
 
 Своё ядро на Rust: без Xray и sing-box внутри, один небольшой и быстрый движок для обеих платформ.
 
-[![Windows](https://img.shields.io/badge/Windows-0.2.6-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)
+[![Windows](https://img.shields.io/badge/Windows-0.2.8-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.8/Imn0tVPN_0.2.8_x64-setup.exe)
 &nbsp;
 [![macOS](https://img.shields.io/badge/macOS-0.2.8-30D158?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.8/Imn0tVPN_0.2.8.dmg)
 
@@ -39,7 +39,7 @@ Windows 10 и 11 · x64 · 6 МБ &nbsp;·&nbsp; macOS 14+ · Apple Silicon · 6
 
 ## Установка на Windows
 
-1. Скачайте **[Imn0tVPN_0.2.6_x64-setup.exe](https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)** и запустите.
+1. Скачайте **[Imn0tVPN_0.2.8_x64-setup.exe](https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.8/Imn0tVPN_0.2.8_x64-setup.exe)** и запустите.
 2. Windows может показать «Система Windows защитила ваш компьютер» — нажмите **Подробнее → Выполнить в любом случае**. Установщик пока не подписан сертификатом.
 3. Подтвердите права администратора: они нужны службе, которая управляет туннелем.
 4. В приложении нажмите **＋** и вставьте ссылку на подписку из личного кабинета или Telegram-бота.
@@ -89,10 +89,10 @@ Windows 10 и 11 · x64 · 6 МБ &nbsp;·&nbsp; macOS 14+ · Apple Silicon · 6
 ## Проверка файла
 
 ```
-SHA-256
-Windows  2e1050f0898cbe1b16d5c99e60b68f9656ed14a680878346b6a5bd13e49c8aad
-macOS    79a04196e8e3634f67082004767a327d6696aef96e2a5bad5a6ddcd37f50a4f2
+SHA-256 (Windows)  323bf66c1a701b679766064ce3adc795bf362cc1828662eafac43cffc6aa4961
 ```
+
+SHA-256 файла для macOS — в описании релиза.
 
 Все версии и что в них изменилось — в разделе [Releases](https://github.com/imn0tsad/imn0tvpn/releases).
 

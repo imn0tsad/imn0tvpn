@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.6",
-    "notes":  "- «Цепочка» теперь получает список входных серверов с сервера Imn0tVPN: новые входы появляются без обновления приложения.\n- В настройках видно, откуда взят список входов, и его можно обновить кнопкой.\n- Если для подписки нет входных серверов, приложение так и пишет.\n- Служба загружает подписки и базы мимо туннеля и в режиме TUN.",
-    "pub_date":  "2026-11-10T21:09:54Z",
+    "version":  "0.2.8",
+    "notes":  "Приложения: «Добавить приложение…» показывает запущенные программы — добавление одним кликом, с поиском; «Другая программа…» открывает выбор .exe. В режиме «Все через VPN» список приложений скрыт, заголовок списка зависит от режима: «Идут напрямую» или «Идут через VPN».",
+    "pub_date":  "2026-11-10T23:36:18Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUa25TdWlCU29MdHhIaWJ6V2tyU2FEQjlzeWJzTnZzUWRXNzNLbGM2WTRMZFBhb2M4Ym84Y3ltVXNEOW1tY2J1OCs4TFdjTjNaVmtlOU0yWjJwc2hnWnpiQ0IzTElvNEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQ0NzQ2CWZpbGU6SW1uMHRWUE5fMC4yLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi42CndCY015TlZHWkV2NkdjR3hhVlRhS2Y5T3BhQjVXa3pMampWS3k4TjJJTHRiQ3Q0RWdWRU5MeDNQMTBkOFBUZUFVNVVBTThIN2VRVHlrSUR4bUlMMkRRPT0K",
-                                             "url":  "https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUa25TdWlCU29MdDM1L3RLdUx6RXdpazdrazBPclRPOVBkVXpVRkhOQXJlY0NHd3NUbjQzTFpYRlI1Q215RS9iNyt2bEVsR09YMkc5cmZrNkRyKyt4UTd3WEUyOFo2Vnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzUzNzUwCWZpbGU6SW1uMHRWUE5fMC4yLjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi44CkQ2bDl1MW5rZkxnc1FCNHpyak5ZR1EyNkxiSy9jZWZiSklvUkdTM1JIMkkvZ21NV1BySmpyY2xGUlREeXVSamxZcTRDZUZrNGJtT20ybTBNM1pKVEN3PT0K",
+                                             "url":  "https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.8/Imn0tVPN_0.2.8_x64-setup.exe"
                                          }
                   }
 }
