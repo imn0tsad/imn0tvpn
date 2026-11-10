@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.5",
-    "notes":  "Первая версия Imn0tVPN для Windows.\n\n- Подключение в одно нажатие: режим TUN для всего компьютера или системный прокси.\n- Российские сайты напрямую, «Цепочка» со сменой входных серверов, правила для отдельных программ.\n- VLESS Reality и Hysteria 2, автопереключение на работающий сервер.\n- Приложение само находит и устанавливает новые версии.",
-    "pub_date":  "2026-11-10T20:33:31Z",
+    "version":  "0.2.6",
+    "notes":  "- «Цепочка» теперь получает список входных серверов с сервера Imn0tVPN: новые входы появляются без обновления приложения.\n- В настройках видно, откуда взят список входов, и его можно обновить кнопкой.\n- Если для подписки нет входных серверов, приложение так и пишет.\n- Служба загружает подписки и базы мимо туннеля и в режиме TUN.",
+    "pub_date":  "2026-11-10T21:09:54Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUa25TdWlCU29MdHpPMkIvb2w5cndDTk5EYjhFbGVpbCtBdlVCWFJxQWJLVW55UVc0Uk1mb2VzSEhqR2oraU94alA2WUlSQUlZYVJFNVhjWWdDeThzS2pmRWVGTSt6OEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQxNTc3CWZpbGU6SW1uMHRWUE5fMC4yLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi41Ckx3MU4rZThzdVZMRUNRSmNsL0NwcGtBZDRPKysvRkdKaXZYTDBxdkRxcXFYbXpZeDVwTXdLSGtqWU1jMlFseStra3R6c2ZEZTZOUk4zQVA5QjZFTENBPT0K",
-                                             "url":  "https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.5/Imn0tVPN_0.2.5_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUa25TdWlCU29MdHhIaWJ6V2tyU2FEQjlzeWJzTnZzUWRXNzNLbGM2WTRMZFBhb2M4Ym84Y3ltVXNEOW1tY2J1OCs4TFdjTjNaVmtlOU0yWjJwc2hnWnpiQ0IzTElvNEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQ0NzQ2CWZpbGU6SW1uMHRWUE5fMC4yLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi42CndCY015TlZHWkV2NkdjR3hhVlRhS2Y5T3BhQjVXa3pMampWS3k4TjJJTHRiQ3Q0RWdWRU5MeDNQMTBkOFBUZUFVNVVBTThIN2VRVHlrSUR4bUlMMkRRPT0K",
+                                             "url":  "https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe"
                                          }
                   }
 }

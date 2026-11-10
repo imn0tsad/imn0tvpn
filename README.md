@@ -6,9 +6,9 @@
 
 **Быстрый и незаметный VPN-клиент для серверов Imn0tVPN**
 
-[![Скачать](https://img.shields.io/badge/Скачать-0.2.5-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.5/Imn0tVPN_0.2.5_x64-setup.exe)
+[![Скачать](https://img.shields.io/badge/Скачать-0.2.6-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)
 
-Windows 10 и 11 · x64 · 5.9 МБ
+Windows 10 и 11 · x64 · 6 МБ
 
 </div>
 
@@ -34,7 +34,7 @@ Windows 10 и 11 · x64 · 5.9 МБ
 
 ## Установка
 
-1. Скачайте **[Imn0tVPN_0.2.5_x64-setup.exe](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.5/Imn0tVPN_0.2.5_x64-setup.exe)** и запустите.
+1. Скачайте **[Imn0tVPN_0.2.6_x64-setup.exe](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)** и запустите.
 2. Windows может показать «Система Windows защитила ваш компьютер» — нажмите **Подробнее → Выполнить в любом случае**. Установщик пока не подписан сертификатом.
 3. Подтвердите права администратора: они нужны службе, которая управляет туннелем.
 4. В приложении нажмите **＋** и вставьте ссылку на подписку из личного кабинета или Telegram-бота.
@@ -77,11 +77,11 @@ Windows 10 и 11 · x64 · 5.9 МБ
 ## Проверка файла
 
 ```
-SHA-256  734d13911e9bbe2fd9d9bfb8dfa39a44b451f4d00201de5e8acaeb8f34de239f
+SHA-256  2e1050f0898cbe1b16d5c99e60b68f9656ed14a680878346b6a5bd13e49c8aad
 ```
 
 Все версии и что в них изменилось — в разделе [Releases](https://github.com/imn0tsad/imn0tvpn-updates/releases).
 
 ---
 
-<sub>Здесь лежат только готовые установщики и файл <code>latest.json</code>, по которому приложение узнаёт о новой версии. Исходный код — в закрытом репозитории.</sub>
+<sub>Установщики лежат в разделе Releases, а здесь — только файл <code>latest.json</code>, по которому приложение узнаёт о новой версии. Исходный код — в закрытом репозитории.</sub>
