@@ -1,11 +1,11 @@
 {
     "version":  "0.2.5",
-    "notes":  "Первая версия Imn0tVPN для Windows с автообновлением.\n\n- Приложение само находит и устанавливает новые версии.\n- При подключении в режиме TUN снимается системный прокси, оставленный другой программой и ведущий в никуда.\n- Понятные сообщения, если мешает другой VPN или занят порт локального прокси.",
-    "pub_date":  "2026-11-10T20:13:00Z",
+    "notes":  "Первая версия Imn0tVPN для Windows.\n\n- Подключение в одно нажатие: режим TUN для всего компьютера или системный прокси.\n- Российские сайты напрямую, «Цепочка» со сменой входных серверов, правила для отдельных программ.\n- VLESS Reality и Hysteria 2, автопереключение на работающий сервер.\n- Приложение само находит и устанавливает новые версии.",
+    "pub_date":  "2026-11-10T20:33:31Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUa25TdWlCU29MdHpPMkIvb2w5cndDTk5EYjhFbGVpbCtBdlVCWFJxQWJLVW55UVc0Uk1mb2VzSEhqR2oraU94alA2WUlSQUlZYVJFNVhjWWdDeThzS2pmRWVGTSt6OEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQxNTc3CWZpbGU6SW1uMHRWUE5fMC4yLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi41Ckx3MU4rZThzdVZMRUNRSmNsL0NwcGtBZDRPKysvRkdKaXZYTDBxdkRxcXFYbXpZeDVwTXdLSGtqWU1jMlFseStra3R6c2ZEZTZOUk4zQVA5QjZFTENBPT0K",
-                                             "url":  "https://raw.githubusercontent.com/imn0tsad/imn0tvpn-updates/main/Imn0tVPN_0.2.5_x64-setup.exe"
+                                             "url":  "https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.5/Imn0tVPN_0.2.5_x64-setup.exe"
                                          }
                   }
 }
