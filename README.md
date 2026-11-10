@@ -2,13 +2,17 @@
 
 <img src="assets/icon.png" width="96" alt="Imn0tVPN">
 
-# Imn0tVPN для Windows
+# Imn0tVPN
 
-**Быстрый и незаметный VPN-клиент для серверов Imn0tVPN**
+**Быстрый и незаметный VPN-клиент для серверов Imn0tVPN — для Windows и macOS**
 
-[![Скачать](https://img.shields.io/badge/Скачать-0.2.6-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)
+Своё ядро на Rust: без Xray и sing-box внутри, один небольшой и быстрый движок для обеих платформ.
 
-Windows 10 и 11 · x64 · 6 МБ
+[![Windows](https://img.shields.io/badge/Windows-0.2.6-30D158?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)
+&nbsp;
+[![macOS](https://img.shields.io/badge/macOS-0.2.6-30D158?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6.dmg)
+
+Windows 10 и 11 · x64 · 6 МБ &nbsp;·&nbsp; macOS 14+ · Apple Silicon · 6 МБ
 
 </div>
 
@@ -26,13 +30,14 @@ Windows 10 и 11 · x64 · 6 МБ
 - **«Цепочка».** Трафик идёт через сменяющиеся входные серверы нашей сети: снаружи не видно, к какому серверу вы на самом деле подключены.
 - **Свои правила для программ.** Можно пустить мимо VPN игры или, наоборот, только выбранные программы — через VPN.
 - **VLESS Reality и Hysteria 2.** Если сервер недоступен, клиент сам переключится на работающий.
-- **Обновляется сам.** Новые версии ставятся из этого репозитория; приложение принимает только установщики, подписанные нашим ключом.
+- **Своё ядро на Rust.** Протоколы, маршрутизация и туннель написаны с нуля на Rust: быстро, экономно к памяти и одинаково на Windows и Mac.
+- **Обновляется сам (Windows).** Новые версии ставятся из этого репозитория; приложение принимает только установщики, подписанные нашим ключом. На Mac новую версию пока нужно скачать вручную.
 
 <p align="center">
   <img src="assets/wide.png" width="760" alt="Широкое окно со списком серверов">
 </p>
 
-## Установка
+## Установка на Windows
 
 1. Скачайте **[Imn0tVPN_0.2.6_x64-setup.exe](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6_x64-setup.exe)** и запустите.
 2. Windows может показать «Система Windows защитила ваш компьютер» — нажмите **Подробнее → Выполнить в любом случае**. Установщик пока не подписан сертификатом.
@@ -41,6 +46,13 @@ Windows 10 и 11 · x64 · 6 МБ
 5. Выберите сервер и нажмите кнопку включения.
 
 Устанавливайте под той учётной записью Windows, под которой будете пользоваться VPN.
+
+## Установка на macOS
+
+1. Скачайте **[Imn0tVPN_0.2.6.dmg](https://github.com/imn0tsad/imn0tvpn-updates/releases/download/v0.2.6/Imn0tVPN_0.2.6.dmg)**, откройте и перетащите Imn0tVPN в папку «Программы».
+2. При первом запуске macOS напишет, что не может проверить разработчика. Откройте **«Системные настройки» → «Конфиденциальность и безопасность»** и нажмите **«Всё равно открыть»**. Приложение пока не подписано сертификатом Apple.
+3. Приложение попросит пароль администратора, чтобы поставить службу, которая управляет туннелем.
+4. Нажмите **＋**, вставьте ссылку на подписку, выберите сервер и нажмите кнопку включения.
 
 ## Частые вопросы
 
@@ -77,7 +89,9 @@ Windows 10 и 11 · x64 · 6 МБ
 ## Проверка файла
 
 ```
-SHA-256  2e1050f0898cbe1b16d5c99e60b68f9656ed14a680878346b6a5bd13e49c8aad
+SHA-256
+Windows  2e1050f0898cbe1b16d5c99e60b68f9656ed14a680878346b6a5bd13e49c8aad
+macOS    04c24a2554aafb25543c2508c780e330ed0ad8785799d486357b8229ffea8da1
 ```
 
 Все версии и что в них изменилось — в разделе [Releases](https://github.com/imn0tsad/imn0tvpn-updates/releases).
