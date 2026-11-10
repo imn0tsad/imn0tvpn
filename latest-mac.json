@@ -1,0 +1,8 @@
+{
+  "version": "0.2.8",
+  "notes": "- Приложение для macOS теперь обновляется само: при появлении новой версии на главном экране появится кнопка «Обновить». Проверить вручную можно в настройках — «Проверить обновления».\n- Обновление проверяется по подписи и не установится, если файл подменён.",
+  "pub_date": "2026-11-10T23:18:49Z",
+  "url": "https://github.com/imn0tsad/imn0tvpn/releases/download/v0.2.8/Imn0tVPN_0.2.8.dmg",
+  "sha256": "79a04196e8e3634f67082004767a327d6696aef96e2a5bad5a6ddcd37f50a4f2",
+  "signature": "gcSnBL00J6wSEKwbfHAJCBJHuCrItvehoHKTMioga9qVN4XPXKvIhLqXLEz3Td85bI00AkvlJXe5FNT7vripAw=="
+}
